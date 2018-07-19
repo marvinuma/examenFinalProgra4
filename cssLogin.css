@@ -62,29 +62,29 @@ de texto disponible en el Inicio de Sesion*/
 	color: #ffffff;
 	/*Establece la letra en negrita*/
 	font-style: bold;
-	/*Define elk tamano de la letra*/
+	/*Define el tamaño de la letra*/
 	font-size: 18px;
 	/*Elimina margenes al lado derecho*/
 	margin-right: 0px;
 	/*Crea una caja interna*/
-	padding: 6px;
+	padding: 7px;
 	/*Define el ancho del elemento*/
 	width: 100px;
 }
 
-/*Da formato  alas cajas de texto*/
+/*Da formato a las cajas de texto*/
 .txt{
 	/*Define el color de fondo en celeste*/
 	background-color: #B0C4DE;
 	/*Color de la letra blanco*/
-	color: #ffffff;
+	color: #000000;
 	/*Establece la altura en pixelkes de la caja*/
 	height: 32px;
 	/*Elimina margeb izquierdo*/
 	margin-left: 0px;
 }
 
-/*Da formato al boton de autenticar*/
+/*Da formato al boton de Inicio de Sesión*/
 #btnAutenticar{
 	/*Define color de fondo*/
 	background-color: #228D22;
@@ -97,10 +97,10 @@ de texto disponible en el Inicio de Sesion*/
 	/*Elimina margenes*/
 	margin: 0px;
 	/*Ancho del elemento*/
-	width: 402px;
+	width: 400px;
 }
 
-/*Da formato al boton de Generar Comtrasena*/
+/*Da formato al boton de - Generar Comtrasenña*/
 #btnRecuperar{
 	/*Define color de fondo*/
 	background-color: #FFD700;
@@ -113,7 +113,7 @@ de texto disponible en el Inicio de Sesion*/
 	/*Elimina margenes*/
 	margin: 0px;
 	/*Ancho del elemento*/
-	width: 390px;
+	width: 400px;
 }
 
 /*Se da formato a la cabeza de la pagina*/
@@ -122,8 +122,8 @@ de texto disponible en el Inicio de Sesion*/
 	background-color: #000000;
 	/*Pinta una linea (borde) en la parte superior
 	e inferior de la cabeza de pagina*/
-	border-top: 6px solid #48D1CC;
-	border-bottom: 6px solid #48D1CC;
+	border-top: 6px solid #FFFFFF;
+	border-bottom: 6px solid #FFFFFF;
 	/*Despliega como bloque*/
 	display: block;
 	/*Define alto de la cabeza*/
@@ -140,7 +140,8 @@ elementos de clave*/
 	/*Altura en pixeles*/
 	height: 35px;
 	/*Margenes - automaticos*/
-	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
 	/*Ancho en pixeles*/
 	width: 300px;
 }
@@ -164,13 +165,13 @@ elementos de Usuario*/
 /*Formato al contenedor de los controles*/
 #controles{
 	/*Define imagen de fondo*/
-	background-image: url(D1.jpg);
+	background-image: url(D3.jpg);
 	/*Redondea la ezquinas superiores*/
 	border-radius: 25px 25px 0px 0px;
 	/*Despliegue en bloque*/
 	display: block;
 	/*Altura del contenedor*/
-	height: 120px;
+	height: 175px;
 	/*Transparencia de la imagen 50%*/
 	opacity: 0.5;
 	/*Establece la posicion en pantalla*/
@@ -194,7 +195,7 @@ elementos de Usuario*/
 	width: 400px;
 }
 
-/**/
+/*Da formato al texto dentro del container - Para iniciar sesión...*/
 #informacion{
 	/*Crea un borde al lado izquierdo y lo pinta*/
 	border-left: 6px solid #2F4F4F;
@@ -207,7 +208,7 @@ elementos de Usuario*/
 	/*Pone a flotar  a la ezquierda*/
 	float: left;
 	/*Altura del elemento*/
-	height: 115px;
+	height: 164px;
 	/*Margen Superior*/
 	margin-top: 5px;
 	/*Ancho del elemento*/
@@ -227,53 +228,56 @@ elementos de Usuario*/
 	/*Establece la forma de posicionar los bloques*/
 	position: absolute;
 	/*Define el tamano del cuerpo*/
-	width: 100%
+	width: 100%;
 	/**/
-	background-image: url(D4.jpeg);
+	background-image: url(Fondo.jpg);
 	/**/
 	background-repeat: no-repeat;
 	/**/
 	background-size: cover;
 }
+
+/**/
 #logo{
 	/*Despliega el icono en bloque*/
 	display: block;
 	/*La imagen se comporta como 
 	un bloque flotante a la izquierda*/
 	float: left;
-	/*Establkece un margen al logo*/
-	margin: 2px;
+	/*Establece un margen al logo*/
+	margin: 20px;
 }
+
+/**/
 #lblUser{
-	border-radius: 20px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
 }
 
+/**/
 #lblClave{
-	border-radius: 20px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
 }
 
-#lblClave{
-	border-radius: 0px 0px 0px 20px;
-}
-
+/**/
 #opciones{
 	/*Despliega en bloque*/
 	display: block;
-	/*DEfine akltura del elemento*/
+	/*Define altura del elemento*/
 	height: 50px;
-	/*Establece la posicion en la poantalla*/
+	/*Establece la posicion en la pantalla*/
 	position: relative;
-	/*Establece un margen en los 4 lados
-	del elemento*/
+	/*Establece un margen en los 4 lados del elemento*/
 	margin: auto;
 	/*Define el ancho del elemento*/
-	width: 805px;
+	width: 1000px;
 }
 
+/**/
 #txtUser{
 	border-radius: 0px 20px 0px 0px;
 }
 
+/**/
 #textoPass{
 	border-radius: 0px 0px 20px 0px;
 }
